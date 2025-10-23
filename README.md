@@ -6,44 +6,44 @@
 
 Um sistema completo e escalável para gerenciar estoque, pedidos e personalização de canecas com visualizador 3D integrado.
 
-## 🎯 Características Principais
+##  Características Principais
 
-### 📦 Gerenciamento de Estoque
+###  Gerenciamento de Estoque
 - Cadastro de produtos com SKU único
 - Controle de quantidade em tempo real
 - Histórico completo de movimentações
 - Alertas de estoque baixo
 - Suporte a múltiplas categorias
 
-### 🛒 Gestão de Pedidos
+###  Gestão de Pedidos
 - Criação rápida de pedidos
 - Adição de múltiplos itens e serviços
 - Sistema de descontos (fixo ou percentual)
 - Atualização de status em tempo real
 - Cálculo automático de totais
 
-### 🎨 Visualizador 3D
+###  Visualizador 3D
 - Visualização realista de canecas
 - Seleção de 7 cores diferentes
 - Upload de designs personalizados
 - Visualização em tempo real
 - Suporte a múltiplos designs por pedido
 
-### 💰 Sistema de Preços
+###  Sistema de Preços
 - Preço base por produto
 - Serviços adicionais configuráveis
 - Descontos flexíveis
 - Cálculo automático de totais
 - Histórico de preços
 
-### 🔐 Segurança
+###  Segurança
 - Autenticação OAuth integrada
 - Criptografia de dados
 - Controle de acesso por usuário
 - Backup automático
 - Logs de auditoria
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 ### Frontend
 - **React 19** - Interface de usuário
@@ -66,19 +66,19 @@ Um sistema completo e escalável para gerenciar estoque, pedidos e personalizaç
 - **PM2** - Process manager
 - **S3** - Armazenamento de arquivos
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 - Node.js v20.0.0 ou superior
 - npm v10.0.0 ou pnpm v10.0.0
 - MySQL 8.0 ou superior
 - Ubuntu 24.04 LTS (ou compatível)
 
-## 🔧 Instalação Rápida
+##  Instalação Rápida
 
 ### 1. Clone o Repositório
 ```bash
-git clone <seu-repositorio> mug_management_system
-cd mug_management_system
+git clone  https://github.com/emerlly/colori.git
+cd colori
 ```
 
 ### 2. Instale Dependências
@@ -115,13 +115,13 @@ pnpm start
 
 O sistema estará disponível em `http://localhost:3000`
 
-## 📚 Documentação
+##  Documentação
 
 - **[Guia de Instalação](./INSTALLATION_GUIDE.md)** - Instalação completa em Ubuntu 24.04
 - **[Guia de Uso](./README_USAGE.md)** - Como usar o sistema
 - **[API Documentation](./API.md)** - Documentação das APIs tRPC
 
-## 🎓 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 mug_management_system/
@@ -155,7 +155,7 @@ mug_management_system/
 └── package.json
 ```
 
-## 🗄️ Modelo de Dados
+##  Modelo de Dados
 
 ### Tabelas Principais
 
@@ -170,7 +170,7 @@ mug_management_system/
 | `designUploads` | Designs personalizados |
 | `stockMovements` | Auditoria de estoque |
 
-## 🔌 APIs Principais
+##  APIs Principais
 
 ### Produtos
 - `POST /api/trpc/products.create` - Criar produto
@@ -192,7 +192,7 @@ mug_management_system/
 - `POST /api/trpc/stock.decrease` - Reduzir estoque
 - `POST /api/trpc/stock.increase` - Aumentar estoque
 
-## 🚀 Deploy
+##  Deploy
 
 ### Opção 1: Servidor Próprio (Ubuntu 24.04)
 Siga o [Guia de Instalação](./INSTALLATION_GUIDE.md) para instruções completas.
@@ -211,7 +211,7 @@ docker build -t mug-system .
 docker run -p 3000:3000 --env-file .env mug-system
 ```
 
-## 📊 Escalabilidade
+##  Escalabilidade
 
 O sistema foi projetado para escalar:
 
@@ -221,7 +221,7 @@ O sistema foi projetado para escalar:
 - **Armazenamento**: S3 para uploads ilimitados
 - **Performance**: Compressão, cache e CDN
 
-## 🔒 Segurança
+##  Segurança
 
 - ✅ Autenticação OAuth integrada
 - ✅ Senhas criptografadas
@@ -231,7 +231,7 @@ O sistema foi projetado para escalar:
 - ✅ Rate limiting
 - ✅ Logs de auditoria
 
-## 📈 Performance
+##  Performance
 
 - Tempo de resposta < 200ms
 - Suporte a 1000+ usuários simultâneos
@@ -239,7 +239,7 @@ O sistema foi projetado para escalar:
 - Compressão de respostas
 - Otimização de imagens
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Problema: Porta 3000 em uso
 ```bash
@@ -261,11 +261,11 @@ pnpm drizzle-kit migrate
 
 Veja [INSTALLATION_GUIDE.md](./INSTALLATION_GUIDE.md) para mais soluções.
 
-## 📝 Licença
+##  Licença
 
 MIT License - veja [LICENSE](./LICENSE) para detalhes.
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são bem-vindas! Por favor:
 
@@ -275,14 +275,14 @@ Contribuições são bem-vindas! Por favor:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📞 Suporte
+##  Suporte
 
-- 📧 Email: suporte@seu-dominio.com
-- 💬 Chat: Disponível no sistema
-- 📱 Telefone: (11) 9999-9999
-- 🐛 Issues: GitHub Issues
+-  Email: suporte@seu-dominio.com
+-  Chat: Disponível no sistema
+-  Telefone: (11) 9999-9999
+-  Issues: GitHub Issues
 
-## 🎉 Roadmap
+##  Roadmap
 
 - [ ] Integração com gateway de pagamento
 - [ ] Relatórios avançados
@@ -293,11 +293,8 @@ Contribuições são bem-vindas! Por favor:
 - [ ] Notificações por email/SMS
 - [ ] API pública para integrações
 
-## 👨‍💻 Autor
 
-Desenvolvido por **Manus AI** - Outubro 2024
-
-## 🙏 Agradecimentos
+##  Agradecimentos
 
 - React community
 - Three.js team
