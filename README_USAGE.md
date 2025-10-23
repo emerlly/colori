@@ -312,5 +312,5 @@ Para dúvidas, sugestões ou reportar problemas:
 
 **Versão**: 1.0  
 **Última Atualização**: Outubro 2024  
-**Autor**: Manus AI
+**Autor**: Emerlly Miranda
 

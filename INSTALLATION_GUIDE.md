@@ -531,5 +531,5 @@ aws s3 sync s3://seu-bucket/uploads ./backups/uploads --profile seu-profile
 
 **Versão**: 1.0  
 **Última Atualização**: Outubro 2024  
-**Autor**: Manus AI
+**Autor**: Emerlly Miranda
 
